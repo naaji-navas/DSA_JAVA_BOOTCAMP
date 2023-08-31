@@ -24,6 +24,8 @@ bin/
 
 ### VS Code ###
 .vscode/
+.idea
+DSA_JAVA_BOOTCAMP.iml
 
 ### Mac OS ###
 .DS_Store
