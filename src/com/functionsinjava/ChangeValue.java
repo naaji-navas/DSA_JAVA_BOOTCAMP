@@ -11,6 +11,9 @@ public class ChangeValue {
     }
 
     private static void change(int[] nums) {
-        nums[0]=99; // if you make  a change to the object via this ref variable, same object will be changed.
+        nums[0]=99; // if you make a change to the object via this ref variable, the same object will be changed.
+        // for primitive data types the value will be passed, and the original value will not be changed,
+        // but in non-primitive data
+        //types, the value is passing the value of the reference variable, so it will be changed.
     }
 }
