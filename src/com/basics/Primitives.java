@@ -3,8 +3,9 @@ package com.basics;
 public class Primitives {
     public static void main(String[] args) {
         int rollno = 64;
-// here integer is a primitve data type.
-        char letter = 'k';
+        // here integer is a primitve data type.
+        char letter = 'k'; // here we can't break these to different parts, so it is called as the primitive data types
+
         float marks = 98.3f;
         // we need to add an f for float variables
         double percentage = 23565656.66546455;
@@ -13,7 +14,7 @@ public class Primitives {
         long longIntegerValue= 2546554825L;
         boolean check =false;
 
-        Integer rollNum;
+        Integer rollNum; // these are called the wrapper classes
         rollNum = 64;
         System.out.println(rollNum.toString());
         /*

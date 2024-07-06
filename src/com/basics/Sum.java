@@ -12,5 +12,8 @@ public class Sum {
         float sum = n1 + n2;
         System.out.println("The sum of the two numbers is : " + sum);
 
+        int num = (int) 67.56f;
+        System.out.println(num);
+
     }
 }

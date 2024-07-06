@@ -1,11 +1,12 @@
 package com.basics;
-
 import java.util.Scanner;
 
 public class Main {
     // in simple terms package is the folder in which the java program lies
     // in com. . means the subfolder
     public static void main(String[] args) {
+
+
         System.out.println("Hello world");
         // System.out is the default standard output stream
         System.out.println("My name is Naaji");
@@ -15,6 +16,7 @@ public class Main {
 
         // now for taking input in java
         // that is Scanner class
+        System.out.println("Enter a number :");
         Scanner sc = new Scanner(System.in);
         System.out.println(sc.nextLine());
         //sc.nextInt for inputting the Integer

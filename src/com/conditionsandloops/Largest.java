@@ -1,5 +1,6 @@
 package com.conditionsandloops;
 
+import javax.print.DocFlavor;
 import java.util.Scanner;
 
 public class Largest {
@@ -16,6 +17,7 @@ public class Largest {
 //            max=b;
 //        if(c>max)
 //            max=c;
-        System.out.println("The max number among the given number is :" + Math.max(c, Math.max(a, b)));
+        int max = Math.max(c,Math.max(a,b));
+        System.out.println("The max number among the given number is :" + max);
     }
 }

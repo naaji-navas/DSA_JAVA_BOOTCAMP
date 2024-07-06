@@ -8,6 +8,7 @@ public class CaseCheck {
         // trim is used for removing the extra spaces.
         System.out.println("Please enter a character :");
         char ch = in.next().trim().charAt(0);
+        Character c =in.next().trim().charAt(0);
         //Q:Find whether it is lower case or upper case
         if(ch >= 'a' && ch <='z'){
             System.out.println("The character is smaller case");
