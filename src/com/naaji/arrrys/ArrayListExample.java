@@ -15,6 +15,9 @@ public class ArrayListExample {
         arr.add(4);
 
         System.out.println(arr);
+        System.out.println(arr.contains(3));
+        arr.set(1, 5);
+        System.out.println(arr.get(1));
 
     }
 }
